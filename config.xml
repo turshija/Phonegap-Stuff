@@ -17,7 +17,12 @@
         Turshija
     </author>
 
-    <plugin name="Notification" value="org.apache.cordova.Notification"/>
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <gap:plugin name="Notification" /> <!-- latest release -->
+
+    <!-- <plugin name="Notification" value="org.apache.cordova.Notification"/> -->
 
     <access origin="*" />
 </widget>
