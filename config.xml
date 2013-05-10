@@ -18,11 +18,10 @@
     </author>
 
     <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="true" />
+    <preference name="fullscreen" value="false" />
 
-    <gap:plugin name="Notification" /> <!-- latest release -->
-
-    <!-- <plugin name="Notification" value="org.apache.cordova.Notification"/> -->
+    <!-- <gap:plugin name="Notification" /> -->
+    <plugin name="Notification" value="org.apache.cordova.Notification"/>
 
     <access origin="*" />
 </widget>
