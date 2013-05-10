@@ -19,5 +19,5 @@
 
     <plugin name="Notification" value="org.apache.cordova.Notification"/>
 
-
+    <access origin="*" />
 </widget>
