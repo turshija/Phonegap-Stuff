@@ -21,6 +21,10 @@
     <preference name="fullscreen" value="false" />
 
     <plugin name="Notification" value="org.apache.cordova.Notification"/>
+    <plugin name="StatusBarNotification" value="com.phonegap.plugins.statusBarNotification.StatusBarNotification"/>
+
+
+
 
     <access origin="*" />
 </widget>
